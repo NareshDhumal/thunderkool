@@ -1,0 +1,181 @@
+/* :root{
+    
+} */
+
+.header-logo h4 {
+    color: rgb(13, 30, 78);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login {
+    background: url(../login-bg.png);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form .auth-form-btn {
+    background: #0d2242;
+    display: block;
+    width: 100%;
+}
+
+.login-form .card {
+    border-radius: 15px;
+    border: 0;
+    padding: 15px;
+    min-width: 400px;
+}
+
+.login-form .card .card-body .for {
+    color: rgb(13, 34, 66);
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+    float: left;
+    text-decoration: none;
+}
+
+.login-form .login-head {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0d2242;
+    text-transform: uppercase;
+}
+
+.login-form .line {
+    width: 100px;
+    height: 4px;
+    background: #0d2242;
+    margin: auto;
+}
+
+.db-body {
+    min-height: calc(100vh - 125px);
+}
+
+.db-section {
+    padding-bottom: 30px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(224, 225, 233) !important;
+    border-collapse: collapse;
+}
+table td {
+    border: none;
+}
+table th,
+table td {
+    padding: 15px !important;
+}
+
+.admin-form label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: rgb(71, 74, 82);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.header-fixed:not([data-kt-sticky-header="on"]) .header .nav-logo {
+    color: #fff;
+}
+
+.t-btn {
+    display: flex !important;
+    gap: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.t-btn a {
+    display: block ruby;
+    /* height: 40px; */
+}
+
+.btn {
+    padding: 8px 18px !important;
+}
+.btn i {
+    padding-right: 0;
+}
+
+.log-btn {
+    background: #46505e;
+    padding: 8px 18px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    transition: 0.5s all ease;
+}
+
+.log-btn:hover {
+    background: #5a5d63;
+}
+
+.header-fixed:not([data-kt-sticky-header="on"]) .header .log-btn {
+    background: rgb(255, 255, 255);
+    color: #27292c;
+}
+
+#tbl-datatable_wrapper .table,
+#tbl-datatable_wrapper .table tr,
+#tbl-datatable_wrapper .table th,
+#tbl-datatable_wrapper .table td {
+    font-size: 13px !important;
+}
+
+a .tooltip {
+    background: #000;
+}
+.toast {
+    opacity: 1 !important;
+    /* background-color: #198754 !important; */
+}
+#toast-container > .toast-success {
+    background-color: #109155 !important;
+    box-shadow: none !important;
+}
+
+#toast-container > .toast-error {
+    background-color: #d0061a !important;
+}
+
+#toast-container > .toast-info {
+    background-color: #0dcaf0 !important;
+    box-shadow: none !important;
+}
+#toast-container > t .toast-warning {
+    background-color: #ffc107 !important;
+    box-shadow: none !important;
+}
+
+.search input::placeholder {
+    color: #000 !important;
+}
+
+.search .search-icon svg rect,
+.search .search-icon svg path {
+    fill: #000 !important;
+}
+
+
+/* Edited by Rahul - Date picker */
+.datepicker{
+    padding: 10px !important;
+}
+.datepicker table,
+.datepicker table th,
+.datepicker table td{
+    padding: 3px !important;
+    border: 0 !important;
+}
+/* Edited by Rahul */
