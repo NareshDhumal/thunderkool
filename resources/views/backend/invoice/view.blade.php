@@ -140,6 +140,7 @@ use App\Models\backend\State;
                                 </td>
                             </tr>
                             <tr>
+                                
                                 <td colspan="4">
                                     Place Of Supply:<br>
                                     <b>{{ $state }}</b>
